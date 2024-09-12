@@ -38,7 +38,8 @@ _-Unknown_
 
 --- 
 ## Code Fencing
-```def processor(reader, converter, writer):
+```
+def processor(reader, converter, writer):
     while True:
         data = reader.read()
         if not data:
