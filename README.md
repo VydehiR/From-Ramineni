@@ -61,7 +61,7 @@ class Processor:
             self.writer.write(data)
 
     def converter(data):
-        assert False, 'converter must be defined' ```
+        assert False, 'converter must be defined'```
 
 [access to code](https://code.pieces.app/collections/python)
 
