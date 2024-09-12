@@ -36,4 +36,33 @@ _-Unknown_
 Because they have tiny ant-bodies!
 _-Unknown_
 
----
+--- 
+## Code Fencing
+```def processor(reader, converter, writer):
+    while True:
+        data = reader.read()
+        if not data:
+            break
+        data = converter(data)
+        writer.write(data)
+
+
+class Processor:
+    def __init__(self, reader, writer):
+        self.reader = reader
+        self.writer = writer
+
+    def process(self):
+        while True:
+            data = self.reader.readline()
+            if not data:
+                break
+            data = self.converter(data)
+            self.writer.write(data)
+
+    def converter(data):
+        assert False, 'converter must be defined' ```
+
+[access to code](https://code.pieces.app/collections/python)
+
+Added the 17th code snippet according to SID.
